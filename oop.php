@@ -21,7 +21,7 @@ class Book {
             $this->availableCopies--;
             return true;
         } else {
-            return false; // Book not available
+            return false;
         }
     }
 
